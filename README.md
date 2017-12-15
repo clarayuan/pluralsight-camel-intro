@@ -37,7 +37,6 @@ My preference for an integrated development environment is IntelliJ. You can
 find the download for IntelliJ here:
 
    https://www.jetbrains.com/idea/download/#section=windows
-   
 
 ### Maven
 
