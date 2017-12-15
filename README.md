@@ -8,7 +8,7 @@ will be able to follow along with the course using this case study project as th
 was developed using the following:
 
 ..* Implemented on Windows 8.1, 64-bit
-..* IntelliJ
+..* IntelliJ 2016.2.5
 ..* JDK 1.7.0_45
 ..* Maven 3
 ..* Spring 4
