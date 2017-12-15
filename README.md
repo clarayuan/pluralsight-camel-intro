@@ -33,7 +33,7 @@ Following installation, you will need to configure your environment variables ba
 
 ### IntelliJ
 
-My preference for an integrated development environment is Eclipse. I am currently developing using Eclipse Kepler. You can 
+My preference for an integrated development environment is IntelliJ. I am currently developing using Eclipse Kepler. You can 
 find the download for Eclipse here:
 
    http://www.eclipse.org/kepler/
