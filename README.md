@@ -8,7 +8,7 @@ will be able to follow along with the course using this case study project as th
 was developed using the following:
 
 ..* Implemented on Windows 8.1, 64-bit
-..* Eclipse
+..* IntelliJ
 ..* JDK 1.7.0_45
 ..* Maven 3
 ..* Spring 4
@@ -31,7 +31,7 @@ The case study depends on Java. The course makes use of Java SDK 1.7.0_45. The S
 
 Following installation, you will need to configure your environment variables based on your OS
 
-### Eclipse
+### IntelliJ
 
 My preference for an integrated development environment is Eclipse. I am currently developing using Eclipse Kepler. You can 
 find the download for Eclipse here:
