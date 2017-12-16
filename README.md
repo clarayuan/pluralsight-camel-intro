@@ -118,24 +118,9 @@ I used Hawt.io version 1.4.14. Below are instructions for installation:
 
 ### Order Fulfillment Project Installation
 
-Below are instructions for getting the Order Fulfillment Processor running in Eclipse:
+Below are instructions for getting the Order Fulfillment Processor running in IntelliJ Tomcat:
 
-1. In Eclipse, select File -> Import and select Maven -> Existing Maven Projects
-2. Enter the root directory of the project then make sure the pom.xml file is checked. Click Next and then click Finish
-3. Make sure the project is faceted as a Maven project
-4. Right click the project and select Properties
-5. Click Project Facets in the pop-up and then click the convert to faceted project link if not already in faceted form.
-6. Make sure Dynamic Web Module 3.0 is checked
-7. Make sure Java 1.7 is checked
-8. Click OK to close the properties popup, then right-click the project and select Properties again. 
-9. There should now be a Deployment Assembly selection, which you should select.
-10. Make sure that /src/main/java/ and /src/main/resources are deployed to WEB-INF/classes
-11. Remove the /WebContent to / entry
-12. Add the java build path entry Maven Dependencies and make sure it deploys to WEB-INF/lib
-13. Add the /src/main/webapp folder and make sure it deploys to /
-14. Click OK to close the properties window
-15. Add the project to the Tomcat 7 server and start the server.
-16. Once the server is started, open a browser to http://localhost:8080/order-fulfillment-processor/orderHome
+1. Once the server is started, open a browser to http://localhost:8080/ofp/orderHome
 
 If you want to run order processing, click Orders -> Process Orders
 
