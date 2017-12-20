@@ -72,7 +72,7 @@ The script to load initial data can be found in the project directory:
 	
 To initially create the database:
 
-1. Log in to PGAdmin III and connect using the postgres user
+1. Log in to PGAdmin III and connect using the postgres user (password is 123)
 2. Create the login for orders using the create statement found in create-orders-db.sql
 3. Create the database for orders using the create statement found in create-orders-db.sql
 4. Disconnect from the server, then right click the database, select properties and enter the user name as orders.
