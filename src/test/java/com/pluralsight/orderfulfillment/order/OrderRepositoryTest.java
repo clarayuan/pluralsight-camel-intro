@@ -47,10 +47,18 @@ public class OrderRepositoryTest extends BaseJpaRepositoryTest {
    @Test
    public void test_findOrdersByOrderStatusOrderByTimeOrderPlacedAscSuccess()
          throws Exception {
-      Iterable<OrderEntity> orders = orderRepository.findByStatus(
+      Iterable<OrderEntity> neworders = orderRepository.findByStatus(
             OrderStatus.NEW.getCode(), new PageRequest(0, 5));
-      assertNotNull(orders);
-      assertTrue(orders.iterator().hasNext());
+      assertNotNull(neworders);
+
+      Iterable<OrderEntity> processedorders = orderRepository.findByStatus(
+              OrderStatus.PROCESSING.getCode(), new PageRequest(0, 5));
+      assertNotNull(processedorders);
+      // because of the camel routes, the orders could have been changed to processing
+
+      assertTrue(neworders.iterator().hasNext() || processedorders.iterator().hasNext());
+
+
    }
 
    @Test
