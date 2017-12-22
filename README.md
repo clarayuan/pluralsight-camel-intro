@@ -97,9 +97,9 @@ I used Apache Tomcat 7.0.54 as a server runtime in Eclipse. Below are instructio
 
 ### Apache ActiveMQ
 
-I used Apache ActiveMQ 5.10.0 for messaging. Below are instructions for installation:
+I used Apache ActiveMQ 5.15.2 for messaging. Below are instructions for installation:
 
-1. Download ActiveMQ 5.10 from http://activemq.apache.org/
+1. Download ActiveMQ 5.15 from http://activemq.apache.org/
 2. Unzip the file to a directory on your hard drivev
 3. Open a command prompt and navigate to the bin directory of the activemq installation you unzipped
 4. Run the command activemq.bat start
