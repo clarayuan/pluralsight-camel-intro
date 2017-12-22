@@ -51,4 +51,14 @@ public interface OrderService {
     */
    List<OrderItem> getOrderItems(long id);
 
+   /**
+    * Retrieves the database data for an order based on the order ID passed.
+    * Transforms the database order into XML format for an Order type.
+    *
+    * @param id
+    * @return
+    * @throws Exception
+    */
+   String processCreateOrderMessage(Long orderId) throws Exception;
+
 }
