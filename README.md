@@ -126,10 +126,9 @@ If you want to run order processing, click Orders -> Process Orders
 
 If you want to reset the orders back to new status, click Orders -> Reset Orders
 
-## Contact Information
-
-If you have any questions, please feel free to contact me:
-
-Michael Hoffman
-mike@michaelhoffmaninc.com
-@mhi_inc
+## for the ftp example, I will configure cygwin as follows:
+download openssh from cygwin, then add user CLARA-Y1+ftp_client (password Password1). to verify run the server:
+net start sshd
+then connect using: $ ssh -l CLARA-Y1+ftp_client localhost
+unfortunately got exception about FileNotFoundException: META-INF\.ssh\known_hosts
+heard that later versions of camel might have fixed this problem. so stopping now.
